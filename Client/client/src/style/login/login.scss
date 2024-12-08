@@ -1,0 +1,28 @@
+.authentic-layout {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 10px white;
+  background: linear-gradient(to top, #aac9ef, white);
+  .authentic-heading {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 4rem;
+    color: #6e97c9;
+    text-shadow: 1px 1px 10px #6188b7;
+  }
+  .authentic-btn {
+    width: 100%;
+    background-color: rgb(45, 205, 61);
+    font-weight: bold;
+  }
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  .success-message {
+    color: rgb(45, 205, 61);
+    font-weight: bold;
+    text-align: center;
+  }
+}

@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nav-item {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    color: blue;
+    box-shadow: inset 1px 1px 10px rgb(99, 154, 216);
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background: rgba($color: #8fffff, $alpha: 0.6);
+      color: white;
+    }
+  }
+}
